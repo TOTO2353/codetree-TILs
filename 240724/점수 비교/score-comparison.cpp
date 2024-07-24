@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     int A_m,  B_m;
     int A_e, B_e;
-    cin >> A_e >>B_e ;
-    cin >> A_m >>B_m;
+    cin >> A_e >>A_m ;
+    cin >>B_e >>B_m;
 
     if (A_e>B_e && A_m>B_m) {
         cout << 1;
