@@ -2,13 +2,14 @@
 using namespace std;
 
 int main() {
+    cout << fixed;
+
     int a,b;
-
-    cout<<fixed;
+    cin >> a >>b;
+    double c;
+    c=(double)(a+b)/(a-b);
     cout.precision(2);
-  
-    cout << (a+b)/(a-b);
-
+    cout <<c;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
