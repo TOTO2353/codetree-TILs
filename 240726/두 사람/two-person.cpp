@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int a_age , a_sex ;
-    int b_age , b_sex ;
+    int a_age; char a_sex ;
+    int b_age; char b_sex ;
 
     cin >> a_age >> a_sex ;
     cin >> b_age >>b_sex;
