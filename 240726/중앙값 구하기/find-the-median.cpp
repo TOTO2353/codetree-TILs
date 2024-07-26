@@ -2,22 +2,18 @@
 using namespace std;
 
 int main() {
-    int a,b,c;
-    cin >> a >>b >>c;
-    int med;
+    int a, b, c;
+    cin >> a >> b >> c;
 
-    if ( ( a>b && a<c ) || ( a>c && a<b )){
-        med=a;
+    int median;
+    if ((a > b && a < c) || (a > c && a < b)) {
+        median = a;
+    } else if ((b > a && b < c) || (b > c && b < a)) {
+        median = b;
+    } else {
+        median = c;
     }
-    
 
-    else if ( b>a && b>c || b>c && b>a ){
-        med=b;
-    }
-
-    else med=c;
-
-    cout << med << endl;
-    // 여기에 코드를 작성해주세요.
+    cout << median << endl;
     return 0;
 }
