@@ -16,11 +16,11 @@ int main() {
         else if (i%3==0)
             count_b++;
         else if (i%2==0)
-            count_c++;
+            count_a++;
        
     }
 
-    cout << count_c <<' '<< count_b << ' '<< count_a;
+    cout << count_a <<' '<< count_b << ' '<< count_c;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
