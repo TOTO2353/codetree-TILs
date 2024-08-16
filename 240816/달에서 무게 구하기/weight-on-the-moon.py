@@ -1,5 +1,4 @@
-weight=13
-ratio=0.165
-M=weight*ratio
+a=13
+b=0.165
 
-print(f"{weight} * {ratio:.6f} = {M:.6f}")
+print(f"{a} * {b:.6f} = {a*b:.6f}")
