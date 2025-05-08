@@ -9,16 +9,16 @@ int main() {
         cout << "A";
     }
 
-    else if (80<=N<90){
+    else if (80<=N && N<90){
         cout << "B";
     }
 
-    else if (70<=N<80){
+    else if (70<=N && N<80){
         cout <<"C";
     }
 
-    else if (60<N<=70){
-        cout <<"D"
+    else if (60<N && N<=70){
+        cout <<"D";
     }
 
     else cout << "F";
