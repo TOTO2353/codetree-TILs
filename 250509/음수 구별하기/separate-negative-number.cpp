@@ -10,8 +10,9 @@ int main() {
        cout << N << endl << "minus";
      }
 
-     cout<<N;
- 
+     if(N>=0) {
+        cout<<N;
+     }
   
      // Please write your code here.
     return 0;
