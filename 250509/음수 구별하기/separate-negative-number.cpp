@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N
+    
+    if (N<0) {
+       cout << N << endl << 'minus'
+    }
+ 
+  
+     // Please write your code here.
+    return 0;
+}
