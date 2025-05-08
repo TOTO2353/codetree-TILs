@@ -17,7 +17,9 @@ int main() {
         cout <<"C";
     }
 
-    else if (60<D<=70){cout <<"D"}
+    else if (60<N<=70){
+        cout <<"D"
+    }
 
     else cout << "F";
     // Please write your code here.
