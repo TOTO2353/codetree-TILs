@@ -6,10 +6,12 @@ int main() {
     int A; int B;
     cin>>A>>B;
 
-    if(A>=B){
-        cout << 1<< endl;
-    }
-    else { cout << 0 <<endl;}
+    cout << (A>=B) << endl;
+    cout << (A>=B) << endl;
+    cout << (A>=B) << endl;
+    cout << (A>=B) << endl;
+    
+
 
     if(A>B){
         cout << 1 << endl;
